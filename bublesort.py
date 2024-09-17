@@ -10,11 +10,7 @@ def bubleSort(lista:list)->list:
     return lista
     
 
-    
 
-
-
-
-lista = [3,5,4,2,1,9,8,10,15,20]
+lista = [21,3,5,4,2,1,9,8,10,15,20]
 
 print(bubleSort(lista))
