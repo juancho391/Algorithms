@@ -9,8 +9,3 @@ def bubleSort(lista:list)->list:
                 lista[i+1] = aux
     return lista
     
-
-
-lista = [21,3,5,4,2,1,9,8,10,15,20]
-
-print(bubleSort(lista))
