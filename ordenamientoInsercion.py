@@ -26,7 +26,7 @@ def insertion_sort(lista):
         iterador = lista[i]
         j = i - 1
         while j >= 0 and lista[j] > iterador:
-            lista[j +1 ] = lista[j]
+            lista[j+1] = lista[j]
             j -= 1
         lista[j+1] = iterador
     return lista
